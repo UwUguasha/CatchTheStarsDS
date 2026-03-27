@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "NDS",
+            "includePath": [
+                "C:/msys64/opt/wonderful/thirdparty/blocksds/core/libs/libnds/include/**",
+                "C:/msys64/opt/wonderful/thirdparty/blocksds/core/libs/dswifi/include/**",
+                "C:/msys64/opt/wonderful/thirdparty/blocksds/core/libs/libxm7/include/**",
+                "C:/msys64/opt/wonderful/thirdparty/blocksds/core/libs/maxmod/include/**",
+                "C:/msys64/opt/wonderful/thirdparty/blocksds/external/nflib/include/**",
+                "C:/msys64/opt/wonderful/thirdparty/blocksds/external/nitro-engine/include/**",
+                "C:/msys64/opt/wonderful/toolchain/gcc-arm-none-eabi/arm-none-eabi/include/**",
+                "${workspaceFolder}/**/"
+            ],
+            "defines": ["ARM7", "ARM9"],
+            "browse": {"limitSymbolsToIncludedHeaders": true, "databaseFilename": ""},
+            "intelliSenseMode": "gcc-arm",
+            "compilerPath": "C:/msys64/opt/wonderful/toolchain/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++17"
+        }
+    ],
+    "version": 4
+}
